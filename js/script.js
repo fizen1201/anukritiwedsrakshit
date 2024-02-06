@@ -1,4 +1,7 @@
-﻿(function(){
+﻿$(window).on('load', function() { 
+});
+
+(function(){
   var myDiv = document.getElementById("se-pre-con"),
 
     show = function(){
