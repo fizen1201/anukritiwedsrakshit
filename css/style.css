@@ -421,19 +421,19 @@ header {
   -webkit-animation: 1.4s ease 0s normal none infinite mouse-down;
 }
 
-@keyframes mouse-down {
+/* @keyframes mouse-down {
   0% {
     top: 0px;
     opacity: 0;
   }
-  80% {
+  90% {
     opacity: 1;
   }
   100% {
     top: 12px;
     opacity: 0;
   }
-}
+} */
 
 /*# 5. Married*/
 
@@ -829,6 +829,11 @@ header {
 
 .map{
   margin: auto 1%;
+  border-radius: 20px;
+  box-shadow: 1px 2px 5px black;
+}
+.map:hover{
+  box-shadow: 2px 2px 10px black;
 }
 .when_where {
   background-size: cover;
@@ -867,6 +872,7 @@ header {
 .when_where h2 {
   margin: 2% 0 1% 0;
   opacity: 1;
+  text-shadow: 2px 2px 6px red;
 }
 
 .when_where h2:after {
@@ -900,15 +906,27 @@ header {
 .title0 {
   font: 300 16px/28px Roboto Condensed;
   color: rgba(255, 255, 255, 0.5);
+  
 }
 
 .title1 {
-  font: 46px/48px Great Vibes;
-}
+  font: 36px/38px Great Vibes;
+  text-indent: -15px;}
+
+  
+.title12 {
+  font: 1.8em Great Vibes;
+  text-indent: -15px;}
+/* .title1{
+  font: 36px/38px Great Vibes;
+  text-indent: -15px;
+} */
 
 .title1_2 {
   text-indent: -15px;
   font: 52px/56px Great Vibes;
+  text-shadow: 2px 2px 6px red;
+
 }
 .box{
   padding: 20px;
