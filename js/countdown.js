@@ -60,9 +60,9 @@
 
         ready: function () {
             var date = this.date,
-                minute = 60000,
-                hour = 3600000,
-                day = 20,
+                minute = 37,
+                hour = 8,
+                day = 15,
                 remainder = {},
                 diff;
 
