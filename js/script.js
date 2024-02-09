@@ -1,6 +1,9 @@
 ﻿$(window).on('load', function() { 
 
 });
+// $('audio').click(function(){
+//   alert("The paragraph was clicked.");
+// });
 var countDownDate = new Date('2024-02-22T18:30:11.000Z');
 
 
