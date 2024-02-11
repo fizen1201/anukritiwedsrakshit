@@ -20,6 +20,16 @@
 ::-webkit-scrollbar {
   width: 5px;
 }
+#bomdy{
+  position: relative;
+}
+audio{
+  max-height: 100%;
+  max-width: 100%;
+  margin: auto;
+  object-fit: contain;
+  background-color: transparent;
+}
 
 /* Track */
 ::-webkit-scrollbar-track {
